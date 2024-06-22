@@ -35,7 +35,7 @@ import { getSender } from "../../config/ChatLogics";
 import { Effect } from "react-notification-badge";
 import NotificationBadge from "react-notification-badge/lib/components/NotificationBadge";
 
-const baseUrl = "http://localhost:5000";
+const baseUrl = "https://full-stack-messaging-app-server.vercel.app";
 
 export default function SideDrawer() {
   const [search, setSearch] = useState("");

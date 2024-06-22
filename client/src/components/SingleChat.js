@@ -16,8 +16,8 @@ import io from "socket.io-client";
 import UpdateGroupChatModal from "./miscellaneous/UpdateGroupChatModal";
 import { ChatState } from "../Context/ChatProvider";
 
-const baseUrl = "http://localhost:5000";
-const ENDPOINT = "http://localhost:5000";
+const baseUrl = "https://full-stack-messaging-app-server.vercel.app";
+const ENDPOINT = "https://full-stack-messaging-app-server.vercel.app";
 var socket, selectedChatCompare;
 
 export default function SingleChat({ fetchAgain, setFetchAgain }) {
