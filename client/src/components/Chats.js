@@ -8,7 +8,7 @@ import { getSender } from "../config/ChatLogics";
 import GroupChatModal from "./miscellaneous/GroupChatModal";
 import { HiUser, HiUserGroup } from "react-icons/hi";
 
-const baseUrl = "https://full-stack-messaging-app-server.vercel.app";
+const baseUrl = "https://full-stack-messaging-app.onrender.com";
 
 export default function Chats({ fetchAgain }) {
   const { user, selectedChat, setSelectedChat, chats, setChats } = ChatState();

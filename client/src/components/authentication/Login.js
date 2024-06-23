@@ -13,7 +13,7 @@ import { ViewIcon, ViewOffIcon } from "@chakra-ui/icons";
 import axios from "axios";
 import { useHistory } from "react-router-dom";
 
-const baseUrl = "https://full-stack-messaging-app-server.vercel.app";
+const baseUrl = "https://full-stack-messaging-app.onrender.com";
 
 export default function Login() {
   const [email, setEmail] = useState("");

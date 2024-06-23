@@ -20,7 +20,7 @@ import { ChatState } from "../../Context/ChatProvider";
 import UserBadgeItem from "../userAvatar/UserBadgeItem";
 import UserListItem from "../userAvatar/UserListItem";
 
-const baseUrl = "https://full-stack-messaging-app-server.vercel.app";
+const baseUrl = "https://full-stack-messaging-app.onrender.com";
 
 export default function UpdateGroupChatModal({
   fetchMessages,
